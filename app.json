@@ -1,0 +1,6 @@
+{
+  "name": "NY Times Front Page",
+  "description": "A barebone PHP app that converts PDF version of NY Times front page to JPG version every day",
+  "repository": "https://github.com/daqo/nytimes-frontpage",
+  "addons": []
+}
