@@ -1,8 +1,5 @@
 {
   "require" : {
     "ext-imagick": "*"
-  },
-  "require-dev": {
-    "heroku/heroku-buildpack-php": "*"
   }
 }
