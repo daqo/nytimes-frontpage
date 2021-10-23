@@ -1,7 +1,7 @@
 <?php
 
 // set the output-file
-$outputfile = "nyt.jpg";
+$outputfile = "/var/www/html/nytimes/nyt.jpg";
 
 // set path to todays NYT frontpage
 $pathToPdf="https://static01.nyt.com/images/".date('Y')."/".date('m')."/".date('d')."/nytfrontpage/scan.pdf";
@@ -35,6 +35,7 @@ $im->scaleImage(1440,2550);
 $im->writeImage($outputfile);
 $im->clear();
 $im->destroy();
+echo 'Finished Processing';
 
 // and display it with nice margins
 

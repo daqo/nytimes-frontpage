@@ -1,5 +1,5 @@
 <?php
-$outputfile = "../nyt.jpg";
+$outputfile = "./nyt.jpg";
 ?>
 <meta http-equiv="refresh" content="21600">
 <body style="margin-top:-100px;margin-left:-27px">
